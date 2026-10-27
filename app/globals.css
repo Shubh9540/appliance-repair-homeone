@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-primary: Arial, Helvetica, sans-serif;
+  --font-heading: Arial, Helvetica, sans-serif;
+  --color-bg-main: #fffaf4;
+  --color-bg-card: #ffffff;
+  --color-bg-alt: #f8eee8;
+  --color-bg-soft: #f2e2dc;
+  --color-footer: #302329;
+  --color-primary: #5b1830;
+  --color-accent: #a63f4d;
+  --color-accent-light: #d7b06a;
+  --color-accent-muted: #ead9bd;
+  --color-text: #38282e;
+  --color-text-light: #78666c;
+  --color-border: #e5d3d5;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: clip;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: clip;
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+  font-family: var(--font-primary);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}

@@ -1,0 +1,628 @@
+{
+  "common": {
+    "globalUI": {
+      "loadingText": "Loading HomeOne..."
+    },
+    "siteMetadata": {
+      "title": "AviCare | Heating, Cooling & Appliance Care",
+      "description": "Considered heating, cooling and appliance care for comfortable modern homes."
+    },
+    "theme": {
+      "fontFamily": "Poppins, Arial, Helvetica, sans-serif",
+      "fontStylesheet": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+    },
+    "Footer": {
+      "variants": {
+        "HomeOneFooter2": {
+          "logo": "/main logo/logo-burgundy-v2.png",
+          "logoAlt": "AviCare heating and AC repair",
+          "description": "Straightforward heating, cooling and appliance care for homes that cannot wait. Clear pricing, careful workmanship and support when you need it.",
+          "columns": [
+            {
+              "id": "footer-company",
+              "title": "Company",
+              "links": [
+                {
+                  "id": "footer-about",
+                  "label": "About us",
+                  "url": "#about"
+                },
+                {
+                  "id": "footer-team",
+                  "label": "Our team",
+                  "url": "#team"
+                },
+                {
+                  "id": "footer-reviews",
+                  "label": "Reviews",
+                  "url": "#testimonials"
+                }
+              ]
+            },
+            {
+              "id": "footer-services",
+              "title": "Services",
+              "links": [
+                {
+                  "id": "footer-ac-repair",
+                  "label": "AC repair",
+                  "url": "#services"
+                },
+                {
+                  "id": "footer-maintenance",
+                  "label": "Maintenance",
+                  "url": "#services"
+                },
+                {
+                  "id": "footer-hvac",
+                  "label": "HVAC solutions",
+                  "url": "#services"
+                }
+              ]
+            },
+            {
+              "id": "footer-contact",
+              "title": "Contact",
+              "links": [
+                {
+                  "id": "footer-address",
+                  "label": "123 Main St, New York, NY, USA",
+                  "url": "https://maps.google.com"
+                },
+                {
+                  "id": "footer-email",
+                  "label": "info@xyz.com",
+                  "url": "mailto:info@xyz.com"
+                },
+                {
+                  "id": "footer-phone",
+                  "label": "+1 000000000",
+                  "url": "tel:+100000000"
+                }
+              ]
+            }
+          ],
+          "socialLabel": "Follow AviCare",
+          "socialLinks": [
+            {
+              "id": "social-facebook",
+              "label": "Facebook",
+              "url": "https://www.facebook.com",
+              "icon": "FaFacebookF"
+            },
+            {
+              "id": "social-instagram",
+              "label": "Instagram",
+              "url": "https://www.instagram.com",
+              "icon": "FaInstagram"
+            },
+            {
+              "id": "social-linkedin",
+              "label": "LinkedIn",
+              "url": "https://www.linkedin.com",
+              "icon": "FaLinkedinIn"
+            }
+          ],
+          "copyright": "Copyright © 2026 AviCare. All rights reserved.",
+          "legalText": "Powered by Lestow"
+        }
+      }
+    }
+  },
+  "categories": {
+    "HomeOne": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "HomeOneHeader2": {
+              "logo": "/main logo/logo-burgundy-v2.png",
+              "logoAlt": "AviCare heating and AC repair",
+              "navLinks": [
+                {
+                  "id": "nav-home",
+                  "label": "Home",
+                  "url": "#home"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "About",
+                  "url": "#about"
+                },
+                {
+                  "id": "nav-services",
+                  "label": "Services",
+                  "url": "#services"
+                },
+                {
+                  "id": "nav-team",
+                  "label": "Team",
+                  "url": "#team"
+                },
+                {
+                  "id": "nav-reviews",
+                  "label": "Reviews",
+                  "url": "#testimonials"
+                }
+              ],
+              "callLabel": "24/7 service line",
+              "phone": "+1 000 000 0000",
+              "phoneUrl": "tel:+10000000000",
+              "cta": {
+                "label": "Contact Us",
+                "url": "#contact"
+              },
+              "menuOpenLabel": "Open navigation",
+              "menuCloseLabel": "Close navigation"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "HomeOneHero2": {
+              "id": "home",
+              "eyebrow": "Comfort, thoughtfully restored",
+              "title": "A calmer way to care for",
+              "highlightedTitle": "your home.",
+              "description": "AviCare brings precise diagnostics, considered workmanship and clear communication to every heating, cooling and appliance visit.",
+              "primaryButton": {
+                "label": "Plan a service visit",
+                "url": "#contact"
+              },
+              "secondaryButton": {
+                "label": "See how we help",
+                "url": "#services"
+              },
+              "image": "/other/hero-burgundy-v2.webp",
+              "imageAlt": "AviCare technician servicing a wall-mounted air conditioner",
+              "serviceLabel": "Need help today?",
+              "serviceValue": "Priority support, 24/7",
+              "stats": [
+                {
+                  "id": "hero-stat-experience",
+                  "value": "12+",
+                  "label": "Years refining our craft"
+                },
+                {
+                  "id": "hero-stat-homes",
+                  "value": "10k+",
+                  "label": "Comfortable homes"
+                },
+                {
+                  "id": "hero-stat-rating",
+                  "value": "4.9/5",
+                  "label": "Homeowner confidence"
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "HomeOneAboutUs2": {
+              "id": "about",
+              "eyebrow": "Care beyond the repair",
+              "title": "Technical expertise, delivered with a human touch.",
+              "description": "Your home deserves more than a quick fix. We listen first, inspect carefully and create a practical path forward—so every decision feels informed and every room feels comfortable again.",
+              "image": "/other/about-burgundy-v2.webp",
+              "imageAlt": "Two AviCare technicians reviewing a service plan",
+              "experienceValue": "12 years",
+              "experienceLabel": "of considered home care",
+              "features": [
+                {
+                  "id": "about-feature-trained",
+                  "icon": "FaTools",
+                  "title": "Crafted solutions",
+                  "description": "Repairs shaped around your equipment, space and everyday routine."
+                },
+                {
+                  "id": "about-feature-pricing",
+                  "icon": "FaClipboardCheck",
+                  "title": "Clarity at every step",
+                  "description": "Plain-language findings, useful options and no surprise decisions."
+                },
+                {
+                  "id": "about-feature-home",
+                  "icon": "FaHome",
+                  "title": "A home-first mindset",
+                  "description": "Clean work, thoughtful timing and genuine respect for your space."
+                }
+              ],
+              "button": {
+                "label": "The people behind the work",
+                "url": "#team"
+              }
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "HomeOneServices2": {
+              "id": "services",
+              "eyebrow": "Our service edit",
+              "title": "Everything your home needs to breathe, cool and run beautifully.",
+              "description": "Specialist care for everyday comfort systems, thoughtfully organized into six essential services.",
+              "services": [
+                {
+                  "id": "service-installation",
+                  "number": "01",
+                  "title": "Made-to-fit cooling",
+                  "description": "A considered installation plan built around your rooms, routines and energy goals.",
+                  "image": "/other/service-installation-burgundy-v2.webp",
+                  "imageAlt": "Technician installing an indoor AC unit",
+                  "icon": "FaSnowflake",
+                  "linkLabel": "Plan an installation",
+                  "url": "#contact"
+                },
+                {
+                  "id": "service-repair",
+                  "number": "02",
+                  "title": "Responsive AC repair",
+                  "description": "Precise fault finding for cooling loss, unusual noise and unexpected shutdowns.",
+                  "image": "/other/service-repair-burgundy-v2.webp",
+                  "imageAlt": "Technician repairing an open AC system",
+                  "icon": "FaTools",
+                  "linkLabel": "Restore your cooling",
+                  "url": "#contact"
+                },
+                {
+                  "id": "service-cleaning",
+                  "number": "03",
+                  "title": "Airflow refresh",
+                  "description": "A detailed clean that helps your system feel fresher, quieter and more efficient.",
+                  "image": "/other/service-cleaning-burgundy-v2.webp",
+                  "imageAlt": "Technician cleaning a residential AC unit",
+                  "icon": "FaWind",
+                  "linkLabel": "Refresh your system",
+                  "url": "#contact"
+                },
+                {
+                  "id": "service-maintenance",
+                  "number": "04",
+                  "title": "Seasonal system care",
+                  "description": "Thoughtful tune-ups designed to protect performance before the weather changes.",
+                  "image": "/other/service-maintenance-burgundy-v2.webp",
+                  "imageAlt": "Technician checking an outdoor cooling unit",
+                  "icon": "FaClipboardCheck",
+                  "linkLabel": "Arrange seasonal care",
+                  "url": "#contact"
+                },
+                {
+                  "id": "service-heating",
+                  "number": "05",
+                  "title": "Reliable warmth",
+                  "description": "Heating support that keeps every room steady, comfortable and ready for winter.",
+                  "image": "/other/service-heating-burgundy-v2.webp",
+                  "imageAlt": "Technician servicing heating equipment",
+                  "icon": "FaFire",
+                  "linkLabel": "Prepare for colder days",
+                  "url": "#contact"
+                },
+                {
+                  "id": "service-hvac",
+                  "number": "06",
+                  "title": "Whole-home balance",
+                  "description": "Connected HVAC care for healthier airflow and consistent comfort throughout your home.",
+                  "image": "/other/service-hvac-burgundy-v2.webp",
+                  "imageAlt": "Commercial HVAC ductwork and air vent",
+                  "icon": "FaFan",
+                  "linkLabel": "Explore whole-home care",
+                  "url": "#contact"
+                }
+              ]
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "HomeOneWhyChooseUs2": {
+              "id": "why-us",
+              "eyebrow": "The AviCare standard",
+              "title": "A service experience designed around real life.",
+              "description": "The best home care feels seamless. We keep the process calm, the recommendations honest and the work focused on what your home genuinely needs.",
+              "image": "/other/why-choose-us-burgundy-v2.webp",
+              "imageAlt": "AviCare technician working on outdoor HVAC equipment",
+              "features": [
+                {
+                  "id": "why-response",
+                  "icon": "FaClock",
+                  "title": "Time, respected",
+                  "description": "Useful arrival updates and appointments planned around your day."
+                },
+                {
+                  "id": "why-diagnosis",
+                  "icon": "FaSearch",
+                  "title": "Details, noticed",
+                  "description": "A considered inspection before any recommendation is made."
+                },
+                {
+                  "id": "why-quality",
+                  "icon": "FaShieldAlt",
+                  "title": "Work, protected",
+                  "description": "Proven methods, tested components and dependable workmanship."
+                },
+                {
+                  "id": "why-support",
+                  "icon": "FaHeadset",
+                  "title": "Support, continued",
+                  "description": "A real team available before and after the technician leaves."
+                }
+              ],
+              "ctaLabel": "Start with a quick conversation",
+              "ctaValue": "+1 000 000 0000",
+              "ctaUrl": "tel:+10000000000"
+            }
+          }
+        },
+        "Team": {
+          "variants": {
+            "HomeOneTeam2": {
+              "id": "team",
+              "eyebrow": "People who care",
+              "title": "Meet the specialists behind every comfortable room.",
+              "description": "Experienced hands, curious minds and a shared belief that excellent service should feel as good as the result.",
+              "phoneLabel": "Call technician",
+              "linkedinLabel": "View LinkedIn profile",
+              "members": [
+                {
+                  "id": "team-daniel",
+                  "name": "Daniel Brooks",
+                  "role": "HVAC specialist",
+                  "image": "/other/team-daniel-burgundy-v2.webp",
+                  "imageAlt": "Daniel Brooks, HVAC specialist",
+                  "phoneUrl": "tel:+10000000000",
+                  "linkedinUrl": "https://www.linkedin.com"
+                },
+                {
+                  "id": "team-maya",
+                  "name": "Maya Reed",
+                  "role": "Appliance technician",
+                  "image": "/other/team-maya-burgundy-v2.webp",
+                  "imageAlt": "Maya Reed, appliance technician",
+                  "phoneUrl": "tel:+10000000000",
+                  "linkedinUrl": "https://www.linkedin.com"
+                },
+                {
+                  "id": "team-ethan",
+                  "name": "Ethan Cole",
+                  "role": "Senior service engineer",
+                  "image": "/other/team-ethan-burgundy-v2.webp",
+                  "imageAlt": "Ethan Cole, senior service engineer",
+                  "phoneUrl": "tel:+10000000000",
+                  "linkedinUrl": "https://www.linkedin.com"
+                },
+                {
+                  "id": "team-james",
+                  "name": "James Carter",
+                  "role": "Maintenance expert",
+                  "image": "/other/team-james-burgundy-v2.webp",
+                  "imageAlt": "James Carter, maintenance expert",
+                  "phoneUrl": "tel:+10000000000",
+                  "linkedinUrl": "https://www.linkedin.com"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "HomeOneTestimonials2": {
+              "id": "testimonials",
+              "eyebrow": "Notes from home",
+              "title": "The kind of service people remember.",
+              "description": "Real reflections on calm communication, careful work and the relief of feeling comfortable at home again.",
+              "ratingLabel": "out of 5 stars",
+              "testimonials": [
+                {
+                  "id": "testimonial-priya",
+                  "name": "Priya Sharma",
+                  "role": "Homeowner, Noida",
+                  "quote": "From the first call, everything felt simple. The technician listened, explained the options clearly and left our home cooler and cleaner than expected.",
+                  "rating": 5,
+                  "avatar": "/other/customer-priya-burgundy-v2.webp",
+                  "avatarAlt": "AviCare customer Priya Sharma"
+                },
+                {
+                  "id": "testimonial-rahul",
+                  "name": "Rahul Verma",
+                  "role": "Homeowner, Gurgaon",
+                  "quote": "AviCare treated our system like part of the home, not just another repair. Thoughtful advice, beautiful attention to detail and no surprises.",
+                  "rating": 5,
+                  "avatar": "/other/customer-rahul-burgundy-v2.webp",
+                  "avatarAlt": "AviCare customer Rahul Verma"
+                },
+                {
+                  "id": "testimonial-neha",
+                  "name": "Neha Kapoor",
+                  "role": "Homeowner, Delhi",
+                  "quote": "We expected a stressful day and got the opposite. Calm communication, careful work and a home that felt comfortable again before evening.",
+                  "rating": 5,
+                  "avatar": "/other/customer-neha-burgundy-v2.webp",
+                  "avatarAlt": "AviCare customer Neha Kapoor"
+                }
+              ]
+            }
+          }
+        },
+        "ContactUs": {
+          "variants": {
+            "HomeOneContactUs2": {
+              "id": "contact",
+              "eyebrow": "Let’s make home feel right",
+              "title": "Start with a few simple details.",
+              "description": "Tell us what you have noticed. We will listen, ask the useful questions and shape the right next step with you.",
+              "details": [
+                {
+                  "id": "contact-phone",
+                  "icon": "FaPhoneAlt",
+                  "label": "Call anytime",
+                  "value": "+1 000 000 0000",
+                  "url": "tel:+10000000000"
+                },
+                {
+                  "id": "contact-email",
+                  "icon": "FaEnvelope",
+                  "label": "Email our team",
+                  "value": "hello@avicare.com",
+                  "url": "mailto:hello@avicare.com"
+                },
+                {
+                  "id": "contact-location",
+                  "icon": "FaMapMarkerAlt",
+                  "label": "Service office",
+                  "value": "123 Main Street, New York, NY",
+                  "url": "https://maps.google.com"
+                }
+              ],
+              "formTitle": "Plan your visit",
+              "formDescription": "Share the essentials and our care team will return with timing and a clear plan.",
+              "fields": [
+                {
+                  "id": "field-name",
+                  "name": "name",
+                  "label": "Full name",
+                  "placeholder": "Your full name",
+                  "type": "text"
+                },
+                {
+                  "id": "field-email",
+                  "name": "email",
+                  "label": "Email address",
+                  "placeholder": "you@example.com",
+                  "type": "email"
+                },
+                {
+                  "id": "field-phone",
+                  "name": "phone",
+                  "label": "Phone number",
+                  "placeholder": "+1 000 000 0000",
+                  "type": "tel"
+                }
+              ],
+              "serviceLabel": "Service needed",
+              "servicePlaceholder": "Choose a service",
+              "serviceOptions": [
+                {
+                  "id": "option-installation",
+                  "label": "AC installation",
+                  "value": "ac-installation"
+                },
+                {
+                  "id": "option-repair",
+                  "label": "AC repair",
+                  "value": "ac-repair"
+                },
+                {
+                  "id": "option-cleaning",
+                  "label": "Deep cleaning",
+                  "value": "deep-cleaning"
+                },
+                {
+                  "id": "option-maintenance",
+                  "label": "Preventive maintenance",
+                  "value": "maintenance"
+                },
+                {
+                  "id": "option-heating",
+                  "label": "Heating service",
+                  "value": "heating"
+                },
+                {
+                  "id": "option-hvac",
+                  "label": "HVAC solution",
+                  "value": "hvac"
+                }
+              ],
+              "messageLabel": "What have you noticed?",
+              "messagePlaceholder": "Tell us about the system, the change you noticed and your preferred timing",
+              "submitLabel": "Start my service request"
+            }
+          }
+        },
+        "NotFound": {
+          "variants": {
+            "HomeOneNotFound2": {
+              "id": "not-found",
+              "code": "404",
+              "title": "This page is not available.",
+              "description": "The address may have changed. Return to the AviCare homepage to continue.",
+              "button": {
+                "label": "Back to home",
+                "url": "/"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "components": [
+        {
+          "id": "page-home-header",
+          "key": "Header",
+          "component": "HomeOneHeader2"
+        },
+        {
+          "id": "page-home-hero",
+          "key": "Hero",
+          "component": "HomeOneHero2"
+        },
+        {
+          "id": "page-home-about",
+          "key": "AboutUs",
+          "component": "HomeOneAboutUs2"
+        },
+        {
+          "id": "page-home-services",
+          "key": "Services",
+          "component": "HomeOneServices2"
+        },
+        {
+          "id": "page-home-why",
+          "key": "WhyChooseUs",
+          "component": "HomeOneWhyChooseUs2"
+        },
+        {
+          "id": "page-home-team",
+          "key": "Team",
+          "component": "HomeOneTeam2"
+        },
+        {
+          "id": "page-home-testimonials",
+          "key": "Testimonials",
+          "component": "HomeOneTestimonials2"
+        },
+        {
+          "id": "page-home-contact",
+          "key": "ContactUs",
+          "component": "HomeOneContactUs2"
+        },
+        {
+          "id": "page-home-footer",
+          "key": "Footer",
+          "component": "HomeOneFooter2"
+        }
+      ]
+    },
+    "notFound": {
+      "components": [
+        {
+          "id": "page-not-found-header",
+          "key": "Header",
+          "component": "HomeOneHeader2"
+        },
+        {
+          "id": "page-not-found-content",
+          "key": "NotFound",
+          "component": "HomeOneNotFound2"
+        },
+        {
+          "id": "page-not-found-footer",
+          "key": "Footer",
+          "component": "HomeOneFooter2"
+        }
+      ]
+    }
+  }
+}
